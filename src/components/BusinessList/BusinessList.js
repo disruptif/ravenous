@@ -1,7 +1,7 @@
 import React from 'react';
 import './BusinessList.css';
 import Business from '../Business/Business'; // import a Component
-import Yelp from '../../util/Yelp';
+import '../../util/Yelp';
 
 class BusinessList extends React.Component {
   render() {

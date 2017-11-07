@@ -24,9 +24,9 @@ const Yelp = {
         {
           headers:{
             Authorization:`Bearer ${accessToken}`},
-        } // hearders close
-    ); // fetch close
-  }) // then close
+        } // headers closing
+    ); // fetch closing
+  }) // then closing
     .then(response => {
       response.json();
     })
@@ -46,6 +46,6 @@ const Yelp = {
           }));
         }
       });
-    } // method search
-
+    } // search method closing
+} // const Yelp closing
 export default Yelp;

@@ -28,7 +28,7 @@ const Yelp = {
     ); // fetch closing
   }) // then closing
     .then(response => {
-      response.json();
+      return response.json();
     })
     .then(jsonResponse => {
       if (jsonResponse.businesses) {
